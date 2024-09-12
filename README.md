@@ -18,15 +18,15 @@ see: https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-c
 
   $ cps "Kill processes holding onto deleted files"
   > sudo lsof | grep deleted | awk '{print $2}' | uniq | xargs kill -9
-  > Press any button to continue, or n to cancel:
+  > Enter to execute, h to explain, any key to cancel:
 ```
 ```
   $ cps "Test whether there are SSL/TLS issues with github.com"
   > openssl s_client -host github.com -port 443
-  > Press any button to continue, or n to cancel:
+  > Enter to execute, h to explain, any key to cancel:
 ```
 ```
   $ cps "Convert SVG to PNG and resize"
   > convert -resize 50% file.svg file.png
-  > Press any button to continue, or n to cancel: 
+  > Enter to execute, h to explain, any key to cancel:
 ```
